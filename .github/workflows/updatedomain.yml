@@ -31,8 +31,8 @@ jobs:
         
     - name: Commit and push changes to all branches
       run: |
-        git config --global user.email "your-email@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email "diana.massimiliano@libero.it"
+        git config --global user.name "TheLiukas"
         
         # Ottieni lista di tutti i branch remoti senza il prefisso "origin/"
         git fetch --all
